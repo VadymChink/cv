@@ -263,7 +263,7 @@ body {
 	.adaptiveSidebar {
 		display: flex;
 		flex-direction: row;
-		justify-content: space-around;
+		/* justify-content: space-around; */
 		align-items: center;
 		flex-wrap: wrap;
 	}
@@ -285,7 +285,6 @@ body {
 		margin: 0;
 	}
 	.Contacts {
-		order: 4;
 		margin-bottom: 25px;
 	}
 }

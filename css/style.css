@@ -23,7 +23,7 @@ body {
 .about-position {
 	font-style: normal;
 	font-weight: bold;
-	font-size: 14px;
+	font-size: 0.875rem;
 	line-height: 17px;
 	color: #000000;
 	margin-bottom: 20px;
@@ -31,7 +31,7 @@ body {
 .about-name {
 	font-style: normal;
 	font-weight: bold;
-	font-size: 45px;
+	font-size: 3.2rem;
 	line-height: 55px;
 	color: #000000;
 	margin-bottom: 25px;
@@ -40,10 +40,10 @@ body {
 	font-family: Montserrat;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 14px;
+	font-size: 0.875rem;
 	line-height: 24px;
 	color: #595959;
-	width: 400px;
+	width: 25rem;
 }
 /* Projects style */
 .Projects {
@@ -53,7 +53,7 @@ body {
 .title {
 	font-style: normal;
 	font-weight: bold;
-	font-size: 22px;
+	font-size: 1.375rem;
 	line-height: 27px;
 	color: #000000;
 	margin-bottom: 10px;
@@ -65,7 +65,7 @@ body {
 .projects-title {
 	font-style: normal;
 	font-weight: bold;
-	font-size: 14px;
+	font-size: 0.875rem;
 	line-height: 24px;
 	color: #000000;
 }
@@ -73,7 +73,7 @@ body {
 .project-link {
 	font-style: normal;
 	font-weight: normal;
-	font-size: 14px;
+	font-size: 0.875rem;
 	line-height: 24px;
 	color: #595959;
 }
@@ -83,7 +83,7 @@ body {
 .project-bracket {
 	font-style: normal;
 	font-weight: bold;
-	font-size: 14px;
+	font-size: 0.875rem;
 	line-height: 24px;
 	color: #000000;
 }
@@ -94,7 +94,7 @@ body {
 .work-position {
 	font-style: normal;
 	font-weight: bold;
-	font-size: 16px;
+	font-size: 1rem;
 	line-height: 20px;
 	color: #000000;
 	margin-bottom: 10px;
@@ -102,14 +102,14 @@ body {
 .organization {
 	font-style: normal;
 	font-weight: bold;
-	font-size: 16px;
+	font-size: 1rem;
 	line-height: 20px;
 	color: #fb6d3a;
 }
 .period {
 	font-style: normal;
 	font-weight: normal;
-	font-size: 12px;
+	font-size: 0.75rem;
 	line-height: 15px;
 	color: #a8a8a8;
 	margin-bottom: 10px;
@@ -117,7 +117,7 @@ body {
 .line {
 	font-style: normal;
 	font-weight: normal;
-	font-size: 12px;
+	font-size: 0.75rem;
 	line-height: 15px;
 	color: #000000;
 	margin: 5px;
@@ -125,7 +125,7 @@ body {
 .work-list {
 	padding: 0;
 	margin-left: 15px;
-	width: 525px;
+	width: 32, 8125rem;
 }
 .work-list-item {
 	font-style: normal;
@@ -140,7 +140,7 @@ body {
 .university {
 	font-style: normal;
 	font-weight: bold;
-	font-size: 16px;
+	font-size: 1rem;
 	line-height: 20px;
 	color: #fb6d3a;
 	margin-bottom: 15px;
@@ -222,7 +222,7 @@ body {
 	line-height: 24px;
 }
 .Soft-Skills {
-	padding-left: 40px;
+	padding-left: 2.5rem;
 }
 .soft-skills-list {
 	color: white;
@@ -244,34 +244,37 @@ body {
 @media (max-width: 2040px) {
 	* {
 		padding: 0;
-		margin: 0;
 		box-sizing: border-box;
 	}
 	.main {
 		display: flex;
 		flex-direction: column-reverse;
-		/* margin-left: 500px; */
+		flex-wrap: wrap;
 		margin-top: 10px;
-		width: 100%;
-		height: 100%;
+		width: 190%;
 	}
 	.main-content {
-		width: 765px;
+		/* width: 765px; */
+		width: 39%;
 		border-bottom-left-radius: 50px;
 		border-bottom-right-radius: 50px;
-	}
-	.sidebar {
-		width: 765px;
-		padding: 20px 30px;
-		border-top-left-radius: 50px;
-		border-top-right-radius: 50px;
 	}
 	.adaptiveSidebar {
 		display: flex;
 		flex-direction: row;
 		justify-content: space-around;
 		align-items: center;
+		flex-wrap: wrap;
 	}
+	.sidebar {
+		/* width: 765px; */
+		width: 48rem;
+		width: 39%;
+		padding: 20px 30px;
+		border-top-left-radius: 50px;
+		border-top-right-radius: 50px;
+	}
+
 	.Tech-Skills {
 		padding-bottom: 0;
 	}

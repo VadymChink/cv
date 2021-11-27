@@ -252,10 +252,11 @@ body {
 		flex-direction: column-reverse;
 		align-items: center;
 		margin-top: 10px;
+		width: 100%;
+		height: 100%;
 	}
 	.main-content {
 		width: 765px;
-
 		border-bottom-left-radius: 50px;
 		border-bottom-right-radius: 50px;
 	}

@@ -248,6 +248,7 @@ body {
 @media (max-width: 1040px) {
 	body {
 		margin-left: 12.5px;
+		background: fixed;
 	}
 	* {
 		padding: 0;

@@ -125,12 +125,12 @@ body {
 .work-list {
 	padding: 0;
 	margin-left: 15px;
-	width: 32, 8125rem;
+	width: 32.8125rem;
 }
 .work-list-item {
 	font-style: normal;
 	font-weight: normal;
-	font-size: 14px;
+	font-size: 0.875rem;
 	line-height: 24px;
 	color: #595959;
 }
@@ -149,7 +149,7 @@ body {
 .specialty {
 	font-style: normal;
 	font-weight: bold;
-	font-size: 14px;
+	font-size: 0.875rem;
 	line-height: 17px;
 	color: #000000;
 	margin-bottom: 15px;
@@ -166,17 +166,17 @@ body {
 .sidebar {
 	background: #1e2939;
 	padding-top: 40px;
-	width: 370px;
+	width: 23.125rem;
 }
 .photo {
-	width: 370px;
+	width: 23.125rem;
 	margin-bottom: 50px;
 }
 .sidebar-title {
 	color: #ffffff;
 	font-style: normal;
 	font-weight: bold;
-	font-size: 22px;
+	font-size: 1.375rem;
 	line-height: 27px;
 	margin-bottom: 10px;
 }
@@ -194,7 +194,7 @@ body {
 .contact-type {
 	font-style: normal;
 	font-weight: bold;
-	font-size: 14px;
+	font-size: 0.875rem;
 	line-height: 24px;
 	color: #ffffff;
 	margin-right: 10px;
@@ -202,7 +202,7 @@ body {
 .contact-link {
 	font-style: normal;
 	font-weight: normal;
-	font-size: 14px;
+	font-size: 0.875rem;
 	line-height: 24px;
 	color: #565e6a;
 }
@@ -218,7 +218,7 @@ body {
 	color: white;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 14px;
+	font-size: 0.875rem;
 	line-height: 24px;
 }
 .Soft-Skills {
@@ -236,7 +236,7 @@ body {
 	font-family: Montserrat;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 14px;
+	font-size: 0.875rem;
 	line-height: 24px;
 	color: #ffffff;
 }
@@ -247,11 +247,12 @@ body {
 		box-sizing: border-box;
 	}
 	.main {
+		font-size: 0.5rem;
 		display: flex;
 		flex-direction: column-reverse;
 		flex-wrap: wrap;
 		margin-top: 10px;
-		width: 28rem;
+		width: 34rem;
 	}
 	.main-content {
 		/* width: 765px; */

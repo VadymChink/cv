@@ -241,7 +241,7 @@ body {
 	color: #ffffff;
 }
 
-@media (max-width: 1040px) {
+@media (max-width: 2040px) {
 	* {
 		padding: 0;
 		box-sizing: border-box;
@@ -251,11 +251,11 @@ body {
 		flex-direction: column-reverse;
 		flex-wrap: wrap;
 		margin-top: 10px;
-		width: 260%;
+		width: 34.375rem;
 	}
 	.main-content {
 		/* width: 765px; */
-		width: 39%;
+		width: 100%;
 		border-bottom-left-radius: 50px;
 		border-bottom-right-radius: 50px;
 	}
@@ -269,7 +269,7 @@ body {
 	.sidebar {
 		/* width: 765px; */
 		width: 48rem;
-		width: 39%;
+		width: 100%;
 		padding: 20px 30px;
 		border-top-left-radius: 50px;
 		border-top-right-radius: 50px;

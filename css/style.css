@@ -241,7 +241,7 @@ body {
 	color: #ffffff;
 }
 
-@media (max-width: 2040px) {
+@media (max-width: 1040px) {
 	* {
 		padding: 0;
 		box-sizing: border-box;
@@ -251,7 +251,7 @@ body {
 		flex-direction: column-reverse;
 		flex-wrap: wrap;
 		margin-top: 10px;
-		width: 100%;
+		width: 260%;
 	}
 	.main-content {
 		/* width: 765px; */

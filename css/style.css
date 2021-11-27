@@ -50,6 +50,9 @@ body {
 	margin-bottom: 50px;
 	/* width: 23.5rem; */
 }
+.br {
+	display: none;
+}
 
 .title {
 	font-style: normal;
@@ -266,6 +269,13 @@ body {
 	}
 	.Projects {
 		width: 22.5rem;
+		text-align: center;
+	}
+	.delete {
+		display: none;
+	}
+	.br {
+		display: block;
 	}
 	.project-link {
 		font-size: 0.68rem;

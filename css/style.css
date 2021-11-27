@@ -43,12 +43,12 @@ body {
 	font-size: 0.875rem;
 	line-height: 24px;
 	color: #595959;
-	width: 22.5rem;
+	width: 29.5rem;
 }
 /* Projects style */
 .Projects {
 	margin-bottom: 50px;
-	width: 23.5rem;
+	/* width: 23.5rem; */
 }
 
 .title {
@@ -74,7 +74,7 @@ body {
 .project-link {
 	font-style: normal;
 	font-weight: normal;
-	font-size: 0.5rem;
+	font-size: 0.875rem;
 	line-height: 24px;
 	color: #595959;
 }
@@ -242,26 +242,33 @@ body {
 	color: #ffffff;
 }
 
-@media (max-width: 2040px) {
+@media (max-width: 1040px) {
 	* {
 		padding: 0;
 		box-sizing: border-box;
 	}
 	.main {
-		/* font-size: 0.5rem; */
 		display: flex;
 		flex-direction: column-reverse;
 		flex-wrap: wrap;
 		margin-top: 10px;
-		/* width: 375px; */
-		width: 23.5rem;
+		width: 23.4375rem;
 	}
 	.main-content {
-		/* width: 765px; */
 		width: 100%;
 		border-bottom-left-radius: 50px;
 		border-bottom-right-radius: 50px;
 		padding: 20px 10px;
+		box-shadow: none;
+	}
+	.Projects {
+		width: 22.5rem;
+	}
+	.project-link {
+		font-size: 0.68rem;
+	}
+	.about-description {
+		width: 22.5rem;
 	}
 	.adaptiveSidebar {
 		display: flex;
@@ -271,10 +278,7 @@ body {
 		flex-wrap: wrap;
 	}
 	.sidebar {
-		/* width: 765px; */
-		width: 48rem;
 		width: 100%;
-		/* padding: 30px; */
 		border-top-left-radius: 50px;
 		border-top-right-radius: 50px;
 	}
@@ -282,19 +286,15 @@ body {
 	.Tech-Skills {
 		padding-bottom: 0;
 		padding-left: 10px;
-
-		order: 3;
 	}
 	.Soft-Skills {
 		padding-right: 10px;
-		order: 3;
 	}
 	.photo {
 		width: 160px;
 		border-radius: 20px;
 		margin-right: 100px;
 		margin-left: 120px;
-		order: 1;
 	}
 	.Contacts {
 		margin-bottom: 25px;

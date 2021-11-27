@@ -269,7 +269,6 @@ body {
 	}
 	.Projects {
 		width: 22.5rem;
-		text-align: center;
 	}
 	.delete {
 		display: none;
@@ -278,7 +277,7 @@ body {
 		display: block;
 	}
 	.project-link {
-		font-size: 0.68rem;
+		font-size: 0.77rem;
 	}
 	.about-description {
 		width: 22.5rem;

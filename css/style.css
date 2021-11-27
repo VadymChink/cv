@@ -43,11 +43,12 @@ body {
 	font-size: 0.875rem;
 	line-height: 24px;
 	color: #595959;
-	width: 25rem;
+	width: 22.5rem;
 }
 /* Projects style */
 .Projects {
 	margin-bottom: 50px;
+	width: 23.5rem;
 }
 
 .title {
@@ -73,7 +74,7 @@ body {
 .project-link {
 	font-style: normal;
 	font-weight: normal;
-	font-size: 0.875rem;
+	font-size: 0.5rem;
 	line-height: 24px;
 	color: #595959;
 }
@@ -125,7 +126,7 @@ body {
 .work-list {
 	padding: 0;
 	margin-left: 15px;
-	width: 32.8125rem;
+	width: 23.5rem;
 }
 .work-list-item {
 	font-style: normal;
@@ -247,12 +248,13 @@ body {
 		box-sizing: border-box;
 	}
 	.main {
-		font-size: 0.5rem;
+		/* font-size: 0.5rem; */
 		display: flex;
 		flex-direction: column-reverse;
 		flex-wrap: wrap;
 		margin-top: 10px;
-		width: 34rem;
+		/* width: 375px; */
+		width: 23.5rem;
 	}
 	.main-content {
 		/* width: 765px; */
@@ -264,7 +266,7 @@ body {
 	.adaptiveSidebar {
 		display: flex;
 		flex-direction: row;
-		/* justify-content: space-around; */
+		justify-content: space-around;
 		align-items: center;
 		flex-wrap: wrap;
 	}
@@ -272,20 +274,30 @@ body {
 		/* width: 765px; */
 		width: 48rem;
 		width: 100%;
-		padding: 20px 30px;
+		/* padding: 30px; */
 		border-top-left-radius: 50px;
 		border-top-right-radius: 50px;
 	}
 
 	.Tech-Skills {
 		padding-bottom: 0;
+		padding-left: 10px;
+
+		order: 3;
+	}
+	.Soft-Skills {
+		padding-right: 10px;
+		order: 3;
 	}
 	.photo {
-		width: 150px;
+		width: 160px;
 		border-radius: 20px;
-		margin: 0;
+		margin-right: 100px;
+		margin-left: 120px;
+		order: 1;
 	}
 	.Contacts {
 		margin-bottom: 25px;
+		order: 4;
 	}
 }

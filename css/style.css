@@ -257,7 +257,7 @@ body {
 		flex-direction: column-reverse;
 		flex-wrap: wrap;
 		min-height: 100%;
-		width: 23rem;
+		width: 23.4375rem;
 	}
 	.main-content {
 		flex: 1 0 auto;

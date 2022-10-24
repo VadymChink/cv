@@ -1,321 +1,378 @@
 body {
-	font-family: "Montserrat", sans-serif;
-	background-color: #f5f7fa;
-	word-wrap: break-word;
-	font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    background-color: #f5f7fa;
+    word-wrap: break-word;
+    font-size: 14px;
 }
+
 /* main styl */
 .main {
-	display: flex;
-	flex-direction: row-reverse;
-	width: 75rem;
-	margin: 0 auto;
-	overflow: hidden;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 75rem;
+    margin: 0 auto;
+    overflow: hidden;
 }
+
 /* main-content */
 .main-content {
-	background-color: #ffffff;
-	box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
-	padding: 105px 90px;
+    background-color: #ffffff;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+    padding: 105px 90px;
 }
+
 /* about style  */
 
 .about {
-	margin-bottom: 40px;
+    margin-bottom: 40px;
 }
+
 .about-position {
-	font-style: normal;
-	font-weight: bold;
-	font-size: 0.875rem;
-	line-height: 17px;
-	color: #000000;
-	margin-bottom: 20px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.875rem;
+    line-height: 17px;
+    color: #000000;
+    margin-bottom: 20px;
 }
+
 .about-name {
-	font-style: normal;
-	font-weight: bold;
-	font-size: 3.2rem;
-	line-height: 55px;
-	color: #000000;
-	margin-bottom: 25px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3.2rem;
+    line-height: 55px;
+    color: #000000;
+    margin-bottom: 25px;
 }
+
 .about-description {
-	font-family: Montserrat;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 0.875rem;
-	line-height: 24px;
-	color: #595959;
-	width: 29.5rem;
+    font-family: Montserrat, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.875rem;
+    line-height: 24px;
+    color: #595959;
+    width: 29.5rem;
 }
+
 /* Projects style */
 .Projects {
-	margin-bottom: 50px;
-	/* width: 23.5rem; */
+    margin-bottom: 50px;
+    /* width: 23.5rem; */
 }
+
 .br {
-	display: none;
+    display: none;
 }
 
 .title {
-	font-style: normal;
-	font-weight: bold;
-	font-size: 1.375rem;
-	line-height: 27px;
-	color: #000000;
-	margin-bottom: 10px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.375rem;
+    line-height: 27px;
+    color: #000000;
+    margin-bottom: 10px;
 }
+
 .projects-list {
-	padding: 0;
-	margin-left: 15px;
+    padding: 0;
+    margin-left: 15px;
 }
+
 .projects-title {
-	font-style: normal;
-	font-weight: bold;
-	font-size: 0.875rem;
-	line-height: 24px;
-	color: #000000;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.875rem;
+    line-height: 24px;
+    color: #000000;
 }
+
 .project,
 .project-link {
-	font-style: normal;
-	font-weight: normal;
-	font-size: 0.875rem;
-	line-height: 24px;
-	color: #595959;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.875rem;
+    line-height: 24px;
+    color: #595959;
 }
+
 .project-link {
-	margin-left: 10px;
+    margin-left: 10px;
 }
+
 .project-bracket {
-	font-style: normal;
-	font-weight: bold;
-	font-size: 0.875rem;
-	line-height: 24px;
-	color: #000000;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.875rem;
+    line-height: 24px;
+    color: #000000;
 }
 
 /* work style */
 /* .work {
 } */
 .work-position {
-	font-style: normal;
-	font-weight: bold;
-	font-size: 1rem;
-	line-height: 20px;
-	color: #000000;
-	margin-bottom: 10px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 20px;
+    color: #000000;
+    margin-bottom: 10px;
 }
+
 .organization {
-	font-style: normal;
-	font-weight: bold;
-	font-size: 1rem;
-	line-height: 20px;
-	color: #fb6d3a;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 20px;
+    color: #fb6d3a;
 }
+
 .period {
-	font-style: normal;
-	font-weight: normal;
-	font-size: 0.75rem;
-	line-height: 15px;
-	color: #a8a8a8;
-	margin-bottom: 10px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.75rem;
+    line-height: 15px;
+    color: #a8a8a8;
+    margin-bottom: 10px;
 }
+
 .line {
-	font-style: normal;
-	font-weight: normal;
-	font-size: 0.75rem;
-	line-height: 15px;
-	color: #000000;
-	margin: 5px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.75rem;
+    line-height: 15px;
+    color: #000000;
+    margin: 5px;
 }
+
 .work-list {
-	padding: 0;
-	margin-left: 15px;
-	width: 23.5rem;
+    padding: 0;
+    margin-left: 15px;
+    width: 23.5rem;
 }
+
 .work-list-item {
-	font-style: normal;
-	font-weight: normal;
-	font-size: 0.875rem;
-	line-height: 24px;
-	color: #595959;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.875rem;
+    line-height: 24px;
+    color: #595959;
 }
+
 /* education style */
-/* .education {
-} */
+.education_position:first-child {
+    margin-bottom: 30px;
+}
+
 .university {
-	font-style: normal;
-	font-weight: bold;
-	font-size: 1rem;
-	line-height: 20px;
-	color: #fb6d3a;
-	margin-bottom: 15px;
-	margin-top: 15px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 20px;
+    color: #fb6d3a;
+    margin-bottom: 15px;
+    margin-top: 15px;
 }
+
 .specialty {
-	font-style: normal;
-	font-weight: bold;
-	font-size: 0.875rem;
-	line-height: 17px;
-	color: #000000;
-	margin-bottom: 15px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.875rem;
+    line-height: 17px;
+    color: #000000;
+    margin-bottom: 15px;
 }
+
 .years-of-study {
-	font-style: normal;
-	font-weight: normal;
-	font-size: 12px;
-	line-height: 15px;
-	color: #a8a8a8;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #a8a8a8;
 }
 
 /* sidebar style */
 .sidebar {
-	background: #1e2939;
-	padding-top: 40px;
-	width: 23.125rem;
+    background: #1e2939;
+    padding-top: 40px;
+    width: 23.125rem;
 }
+
 .photo {
-	width: 23.125rem;
-	margin-bottom: 50px;
+    width: 23.125rem;
+    margin-bottom: 50px;
 }
+
 .sidebar-title {
-	color: #ffffff;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 1.375rem;
-	line-height: 27px;
-	margin-bottom: 10px;
+    color: #ffffff;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.375rem;
+    line-height: 27px;
+    margin-bottom: 10px;
 }
+
 .Contacts,
 .Tech-Skills {
-	padding-left: 40px;
+    padding-left: 40px;
 }
 
 .Contacts {
-	margin-bottom: 50px;
+    margin-bottom: 50px;
 }
+
 .Tech-Skills {
-	padding-bottom: 45px;
+    padding-bottom: 45px;
 }
-.contact-type {
-	font-style: normal;
-	font-weight: bold;
-	font-size: 0.875rem;
-	line-height: 24px;
-	color: #ffffff;
-	margin-right: 10px;
+
+.contact-type, .citi {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.875rem;
+    line-height: 24px;
+    color: #ffffff;
+    margin-right: 10px;
 }
-.contact-link {
-	font-style: normal;
-	font-weight: normal;
-	font-size: 0.875rem;
-	line-height: 24px;
-	color: #565e6a;
+
+.contact-link, .country {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.875rem;
+    line-height: 24px;
+    color: #565e6a;
 }
+
 .tech-skills-list {
-	color: white;
-	padding: 0;
-	padding-left: 20px;
+    color: white;
+    padding-left: 20px;
 }
+
+.country {
+    font-size: 24px;
+    margin: 0;
+}
+
 .tech-skills-item {
-	color: #fb6d3a;
+    color: #fb6d3a;
 }
+
 .tech-skills-text {
-	color: white;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 0.875rem;
-	line-height: 24px;
+    color: white;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.875rem;
+    line-height: 24px;
 }
+
 .Soft-Skills {
-	padding-left: 2.5rem;
+    padding-left: 2.5rem;
 }
+
+.Language {
+    padding-left: 2.5rem;
+}
+
 .soft-skills-list {
-	color: white;
-	padding: 0;
-	padding-left: 20px;
+    color: white;
+    padding: 0;
+    padding-left: 20px;
 }
+
 .soft-skills-item {
-	color: #fb6d3a;
+    color: #fb6d3a;
 }
+
 .soft-skills-text {
-	font-family: Montserrat;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 0.875rem;
-	line-height: 24px;
-	color: #ffffff;
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.875rem;
+    line-height: 24px;
+    color: #ffffff;
 }
 
 @media (max-width: 1040px) {
-	* {
-		margin: 0;
-		padding: 0;
-		box-sizing: border-box;
-	}
-	.main {
-		display: flex;
-		flex-direction: column-reverse;
-		flex-wrap: wrap;
-		min-height: 100%;
-		width: 23.4375rem;
-	}
-	.main-content {
-		flex: 1 0 auto;
-		width: 100%;
-		border-bottom-left-radius: 50px;
-		border-bottom-right-radius: 50px;
-		padding: 20px 10px;
-		box-shadow: none;
-	}
-	.Projects {
-		width: 22.5rem;
-	}
-	.delete {
-		display: none;
-	}
-	.br {
-		display: block;
-	}
-	.project-link {
-		font-size: 0.77rem;
-	}
-	.about-description {
-		width: 22.5rem;
-	}
-	.work-position,
-	.education {
-		margin-top: 20px;
-	}
-	.adaptiveSidebar {
-		display: flex;
-		flex-direction: row;
-		justify-content: space-around;
-		align-items: center;
-		flex-wrap: wrap;
-	}
-	.sidebar {
-		width: 100%;
-		border-top-left-radius: 50px;
-		border-top-right-radius: 50px;
-	}
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
 
-	.Tech-Skills {
-		padding-bottom: 0;
-		padding-left: 10px;
-	}
-	.Soft-Skills {
-		padding-right: 10px;
-	}
-	.photo {
-		width: 160px;
-		border-radius: 20px;
-		margin-right: 100px;
-		margin-left: 120px;
-	}
-	.Contacts {
-		margin-bottom: 25px;
-		order: 4;
-	}
+    .main {
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+        min-height: 100%;
+        width: 23.4375rem;
+    }
+
+    .main-content {
+        flex: 1 0 auto;
+        width: 100%;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        padding: 20px 10px;
+        box-shadow: none;
+    }
+
+    .Projects {
+        width: 22.5rem;
+    }
+
+    .delete {
+        display: none;
+    }
+
+    .br {
+        display: block;
+    }
+
+    .project-link {
+        font-size: 0.77rem;
+    }
+
+    .about-description {
+        width: 22.5rem;
+    }
+
+    .work-position,
+    .education {
+        margin-top: 20px;
+    }
+
+    .adaptiveSidebar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .sidebar {
+        width: 100%;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+    }
+
+    .Tech-Skills {
+        padding-bottom: 0;
+        padding-left: 10px;
+    }
+
+    .Soft-Skills {
+        padding-right: 10px;
+    }
+
+    .photo {
+        width: 160px;
+        border-radius: 20px;
+        margin-right: 100px;
+        margin-left: 120px;
+    }
+
+    .Contacts {
+        margin-bottom: 25px;
+        order: 4;
+    }
 }

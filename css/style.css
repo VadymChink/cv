@@ -226,7 +226,7 @@ body {
     padding-bottom: 45px;
 }
 
-.contact-type, .citi {
+.contact-type {
     font-style: normal;
     font-weight: bold;
     font-size: 0.875rem;
@@ -235,7 +235,7 @@ body {
     margin-right: 10px;
 }
 
-.contact-link, .country {
+.contact-link {
     font-style: normal;
     font-weight: normal;
     font-size: 0.875rem;
@@ -248,8 +248,14 @@ body {
     padding-left: 20px;
 }
 
+.citi {
+    color: white;
+}
+
 .country {
     font-size: 24px;
+    color: white;
+    font-weight: bold;
     margin: 0;
 }
 

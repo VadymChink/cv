@@ -1,0 +1,87 @@
+@media (max-width: 1040px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .main {
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+        min-height: 100%;
+        width: 23.4375rem;
+    }
+
+    .main-content {
+        flex: 1 0 auto;
+        width: 100%;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        padding: 20px 10px;
+        box-shadow: none;
+    }
+
+    .Projects {
+        width: 22.5rem;
+    }
+
+    .project {
+        /*display: block;*/
+    }
+
+    .project-link {
+        font-size: 0.77rem;
+    }
+
+    .about-description {
+        width: 22.5rem;
+    }
+
+    .work-position,
+    .education {
+        margin-top: 20px;
+    }
+
+    .adaptiveSidebar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .sidebar {
+        width: 100%;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+    }
+
+    .skills {
+        display: flex;
+        margin-bottom: 40px;
+    }
+
+    .Tech-Skills {
+        padding-bottom: 0;
+        padding-left: 10px;
+    }
+
+    .Soft-Skills {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-right: 10px;
+    }
+
+    .photo {
+        width: 160px;
+        border-radius: 20px;
+        margin-right: 100px;
+        margin-left: 120px;
+    }
+
+    .sidebar-title{
+        margin: 0;
+    }
+}
